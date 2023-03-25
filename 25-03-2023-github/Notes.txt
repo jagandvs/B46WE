@@ -1,0 +1,18 @@
+-> Github is a version control management
+
+-> Install git from git-scm.com
+-> Go to github.com and signup
+-> Create repository
+
+-> select a folder which you want to push
+-> run "git init"
+-> git remote add origin "github url"
+-> git add . // this will add all the changed files to staged
+-> git commit -m 'message' // this will commit with a message
+-> git push -u origin master // or branch name
+
+-> git checkout -b "branch name"  // creates new branch 
+-> git checkout "branch name" // switch to existing branch
+
+-> git pull // get the lastet code from github server
+-> git clone "github url" // this will fetch the new repo from github to local
